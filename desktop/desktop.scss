@@ -19,8 +19,8 @@ media="(min-width: 40rem)" {
 
 /* Override Density Toggle hiding */
 /* .f-d-compact .topic-list .topic-list-data.views, */
-.f-d-compact .topic-list .topic-list-data.posts,
-.f-d-compact .topic-list .topic-list-data.posters {
+body.topic-list-layout-cards .f-d-compact .topic-list .topic-list-data.posts,
+body.topic-list-layout-cards .f-d-compact .topic-list .topic-list-data.posters {
     display: flex !important;
 }
 
