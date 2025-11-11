@@ -30,6 +30,10 @@ media="(min-width: 40rem)" {
     --sidebar-row-height-compact: calc(var(--d-sidebar-row-height) * 0.7);
 }
 
+body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .main-link.topic-list-data {
+    gap: 0 var(--space-2);
+}
+
 body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.views,
 body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.posts {
     display: revert;
@@ -60,10 +64,6 @@ body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .badge-ca
 body.navigation-topics.topic-list-layout-cards.f-d-cozy .topic-list .topic-list-data,
 body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .topic-list-data {
     padding-left: 0 !important;
-}
-
-body.navigation-topics.topic-list-layout-cards.f-d-compact .main-link.topic-list-data {
-    gap: 0 var(--space-2);
 }
 
 /* END Override Density Toggle Items */
