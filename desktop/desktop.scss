@@ -126,6 +126,7 @@ body[class*="topic-list-layout-"] {
       .posters,
       .age {
         // resets
+        margin-top: auto;
         padding: 0;
         width: unset;
         height: unset;
@@ -161,7 +162,6 @@ body[class*="topic-list-layout-"] {
 
       .posters {
         grid-area: posters;
-        margin-top: auto;
       }
 
       .posts-map {
