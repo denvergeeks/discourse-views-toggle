@@ -22,6 +22,14 @@ media="(min-width: 40rem)" {
 
 /* START Override Density Toggle Items */
 
+:root {
+    --topic-list-spacing-compact: 0.4em 0.165em 0.4em 0.25em;
+    --topic-list-spacing-cozy: 0.6em 0.25em;
+    --topic-spacing-compact: 0.4em 0.165em;
+    --topic-spacing-cozy: 0.6em 0.25em;
+    --sidebar-row-height-compact: calc(var(--d-sidebar-row-height) * 0.7);
+}
+
 body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.views,
 body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.posts {
     display: revert;
@@ -53,7 +61,6 @@ body.navigation-topics.topic-list-layout-cards.f-d-cozy .topic-list .topic-list-
 body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .topic-list-data {
     padding-left: 0 !important;
 }
-
 
 /* END Override Density Toggle Items */
 
