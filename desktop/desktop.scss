@@ -62,6 +62,10 @@ body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .topic-li
     padding-left: 0 !important;
 }
 
+body.navigation-topics.topic-list-layout-cards.f-d-compact .main-link.topic-list-data {
+    gap: 0 var(--space-2);
+}
+
 /* END Override Density Toggle Items */
 
 body.topic-list-layout-cards {
