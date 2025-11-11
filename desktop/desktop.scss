@@ -1,5 +1,20 @@
 /* CONFLICTS WITH: Topic Cards, Topic Thumbnails, Topic List Previews */
 
+/*
+media="(min-width: 40rem)" {
+    .topic-list .posters img.avatar {
+        height: var(--d-topic-list-avatar-size);
+        width: var(--d-topic-list-avatar-size);
+    }
+}
+*/
+/* Override Density Toggle hiding these */
+.f-d-compact .topic-list .topic-list-data.views,
+.f-d-compact .topic-list .topic-list-data.posts,
+.f-d-compact .topic-list .topic-list-data.posters {
+    display: inline-block;
+}
+
 body.topic-list-layout-cards {
   .top-lists,
   .topic-list-bottom {
