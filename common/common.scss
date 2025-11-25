@@ -135,6 +135,7 @@ display: none !important;
     height: 225px !important;
     /* min-width:350px !important; */
     overflow: hidden !important;
+        border-radius: 8px;
     
 }
 
@@ -146,6 +147,7 @@ display: none !important;
         "replies posters posters" !important;
     grid-template-columns: auto 1fr auto !important;
 }
+
 
 
 
