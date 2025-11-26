@@ -32,9 +32,17 @@
 }
 
 
+.desktop-view .topic-list[data-layout=cards] table tr:nth-child(odd) {
+  background-color: #fafafa !important; /* Light gray for odd rows */
+}
+
+.desktop-view .topic-list[data-layout=cards] table tr:nth-child(even) {
+  background-color: #fafafa !important; /* White for even rows */
+}
+
 .desktop-view .topic-list[data-layout=cards] .topic-list-item:hover,
 .desktop-view .topic-list[data-layout=cards] .latest-topic-list-item:hover {
-    background: #fafafa;
+    background: #fff;
 }
 
 
@@ -185,6 +193,7 @@ display: none !important;
         "replies posters posters" !important;
     grid-template-columns: auto 1fr auto !important;
 }
+
 
 
 
