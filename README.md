@@ -1,1 +1,2 @@
-# discourse-jens-topic-list-layout-switcher
+## INCOMPATIBLE WITH:
+Plugin: Tag intersection navigator
