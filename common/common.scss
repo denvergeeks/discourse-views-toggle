@@ -1,8 +1,9 @@
 /* MIGHT CONFLICT WITH: Topic Cards, Topic Thumbnails, Topic List Previews */
 /* TOPIC LIST LAYOUTS TOGGLE SWITCHER - as of 2025-03-02 */
 
-.topic-list .num .badge-posts {
-    padding: 0;
+.topic-list .topic-list-data a,
+.topic-list .topic-list-data span {
+    padding: 0 !important;
 }
 
 /* START Fix when used with Density Toggle TC */
