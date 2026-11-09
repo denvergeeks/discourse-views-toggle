@@ -20,17 +20,19 @@
     cursor: pointer;
 }
 
+/*
 .desktop-view .topic-list[data-layout=cards] {
     background-color: transparent !important;
 }
 
 .desktop-view .topic-list[data-layout=cards] .topic-list-item {
     border: var(--table-border-width) solid var(--table-border-color);
-    background-color: #fafafa !important;
+    /* background-color: #fafafa !important; */
 
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     
 }
+*/
 
 /*
 .desktop-view .topic-list[data-layout=cards] table tr:nth-child(odd) {
@@ -179,11 +181,11 @@ display: none !important;
         "category category date"
         "title title title"
         "replies posters posters";
-    padding: 1em !important;
+    /* padding: 1em !important; */
     height: 225px !important;
     /* min-width:350px !important; */
-    overflow: hidden !important;
-        border-radius: 8px;
+    /* overflow: hidden !important; */
+    /* border-radius: 8px; */
     
 }
 
