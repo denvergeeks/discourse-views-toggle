@@ -20,29 +20,6 @@
     cursor: pointer;
 }
 
-/*
-.desktop-view .topic-list[data-layout=cards] {
-    background-color: transparent !important;
-}
-
-.desktop-view .topic-list[data-layout=cards] .topic-list-item {
-    border: var(--table-border-width) solid var(--table-border-color);
-    background-color: #fafafa !important;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-    
-}
-*/
-
-/*
-.desktop-view .topic-list[data-layout=cards] table tr:nth-child(odd) {
-  background-color: #fafafa !important;
-}
-
-.desktop-view .topic-list[data-layout=cards] table tr:nth-child(even) {
-  background-color: #fafafa !important;
-}
-*/
-
 .desktop-view .topic-list[data-layout=cards] .topic-list-item:hover,
 .desktop-view .topic-list[data-layout=cards] .latest-topic-list-item:hover {
     background: #fff !important;
@@ -140,10 +117,10 @@ display: none !important;
 
 .desktop-view .topic-list[data-layout=cards] tbody {
     border: none !important;
-
+    
     /*
     display: flex !important;
-        justify-content: space-evenly !important;
+    justify-content: space-evenly !important;
     flex-direction: row !important;
     align-items: center !important;
     flex-wrap: wrap !important;
