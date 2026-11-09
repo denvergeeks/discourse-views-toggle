@@ -131,10 +131,19 @@ body[class*="topic-list-layout-"] {
       grid-template-columns: auto 1fr auto;
       grid-template-rows: auto auto auto 1fr;
       padding: 1.75em 1em 2em;
-      border-bottom: 1px solid var(--primary-low);
+      /* border-bottom: 1px solid var(--primary-low); */
       width: 100%;
       box-sizing: border-box;
       max-width: 800px;
+      background-color: var(--secondary);
+      border-left-width: 0;
+      border-radius: 12px;
+      margin: 0 0;
+      max-height: 160px;
+      overflow: hidden;
+      transition: all ease-out .2s;
+      width: initial;
+      box-shadow: 0 24px 40px rgba(0, 0, 0, .07), 0 10.8529px 24.1177px rgba(0, 0, 0, .0456112), 0 4.50776px 10.0172px rgba(0, 0, 0, .035), 0 1.63037px 3.62304px rgba(0, 0, 0, .0243888);
 
       &:has(.thumbnail) {
         grid-template-areas:
